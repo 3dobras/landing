@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://3dobras-landing-page.netlify.app/sitemap-index.xml
