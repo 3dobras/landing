@@ -1,12 +1,12 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Icon, Text, LinkBox, Box, Section, Image, Strong, Button, Span, Input } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Icon, Text, LinkBox, Section, Strong, Button, Span, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, SocialMedia, Formspree } from "@quarkly/components";
 import * as Components from "components";
-import { GiFairyWings } from "react-icons/gi";
 import { FiMenu } from "react-icons/fi";
+import { GiFairyWings } from "react-icons/gi";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -17,8 +17,18 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-3">
+		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-3" background="#002A3A">
 			<Override slot="SectionContent" flex-direction="row" justify-content="space-between" />
+			<Image
+				src="https://uploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16:11:42.573Z"
+				display="inline-block"
+				width="50px"
+				height="50px"
+				align-self="center"
+				min-width="fit-content"
+				min-height="initial"
+				order="-1"
+			/>
 			<Box
 				display="flex"
 				padding="12px 0"
@@ -33,21 +43,7 @@ export default (() => {
 				md-width="50%"
 				lg-width="70%"
 				md-justify-content="flex-start"
-			>
-				<LinkBox flex-direction="row" href="/index" display="flex" grid-gap="12px">
-					<Icon category="gi" icon={GiFairyWings} color="#6d32ec" size="37px" />
-					<Text
-						margin="0"
-						md-margin="0px 0 0px 0"
-						text-align="left"
-						font="--lead"
-						sm-margin="0px 0 0px 0"
-						display="block"
-					>
-						Company
-					</Text>
-				</LinkBox>
-			</Box>
+			/>
 			<Components.QuarklycommunityKitMobileSidePanel
 				menuPosition="full"
 				breakpoint="lg"
@@ -161,6 +157,9 @@ export default (() => {
 						<Override slot="item" padding="6px 8px 6px 8px" />
 						<Override slot="link-active" cursor="default" color="--primary" />
 						<Override slot="link-about" />
+						<Override slot="link-cases" color="--darkL2">
+							Cases
+						</Override>
 					</Components.QuarklycommunityKitMenu>
 					<Box
 						width="25%"
@@ -236,12 +235,12 @@ export default (() => {
 			<Image
 				src="https://uploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16:11:42.573Z"
 				display="inline-block"
-				width="90px"
 				height="90px"
 				align-self="center"
 				min-width="fit-content"
 				min-height="initial"
 				order="-1"
+				width="90px"
 			/>
 			<Box width="100%">
 				<Text
@@ -868,7 +867,7 @@ QUE CAPTA SUA PERSONALIDADE
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 30px 0" background="--color-dark" quarkly-title="Footer-18">
+		<Section padding="80px 0 30px 0" background="--color-dark" quarkly-title="Footer-18" height="min-content">
 			<Override slot="SectionContent" align-items="center" />
 			<Box
 				display="block"
@@ -890,7 +889,7 @@ QUE CAPTA SUA PERSONALIDADE
 					justify-content="center"
 					align-content="space-around"
 				>
-					<Image src="https://uploads.quarkly.io/643d8e6ebf72b300207d7233/images/bhbhb.png?v=2023-05-20T21:20:32.358Z" display="block" align-self="flex-start" width="140px" />
+					<Image src="https://uploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16:11:42.573Z" display="block" align-self="flex-start" width="70px" />
 				</LinkBox>
 			</Box>
 			<Box
@@ -908,7 +907,6 @@ QUE CAPTA SUA PERSONALIDADE
 				</Text>
 			</Box>
 		</Section>
-		<Input display="block" placeholder-color="LightGray" background="white" />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
