@@ -493,7 +493,15 @@ QUE CAPTA SUA PERSONALIDADE
 						sm-margin="0px 0px 30px 0px"
 						md-text-align="left"
 					>
-						Fotos para a sua empresa, vídeos institucionais ou de lançamento para algum momento especial da sua marca, planejando roteiro e detalhes que contarão a sua história.{"\n\n\n\n"}
+						Buscamos{" "}
+						<Strong>
+							registrar
+						</Strong>
+						{" "}os grandes momentos{" "}
+						<Strong>
+							da sua vida
+						</Strong>
+						{" "}de maneira autêntica, capturando cada detalhe e emoção com excelência.{" \n\n\n\n"}
 					</Text>
 				</Box>
 				<Box
@@ -517,7 +525,14 @@ QUE CAPTA SUA PERSONALIDADE
 						font="--base"
 						md-text-align="left"
 					>
-						Registros de momentos especiais compartilhado com cada convidado de uma forma única é a melhor forma de lembrar datas importantes.{"\n\n\n\n"}
+						Capturar momentos especiais compartilhados com cada pessoa de uma forma{" "}
+						<Strong>
+							única
+						</Strong>
+						{" "}é a melhor forma de se lembrar das datas mais{" "}
+						<Strong>
+							importantes.{"\n\n\n\n"}
+						</Strong>
 					</Text>
 				</Box>
 			</Box>
@@ -795,7 +810,10 @@ QUE CAPTA SUA PERSONALIDADE
 					lg-width="100%"
 					md-text-align="left"
 				>
-					The Road Ring is a national road in Iceland that runs around the island and connects most of the inhabited parts of the country. The total length of the road is 1,352 kilometres.
+					Fotos para a sua empresa, vídeos institucionais ou algum momento especial da sua marca, planejando roteiro e detalhes que contarão{" "}
+					<Strong>
+						a sua história.{"\n\n"}
+					</Strong>
 				</Text>
 			</Box>
 		</Section>
