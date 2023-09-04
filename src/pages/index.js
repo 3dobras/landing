@@ -28,6 +28,8 @@ export default (() => {
 				min-width="fit-content"
 				min-height="initial"
 				order="-1"
+				srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 			<Box
 				display="flex"
@@ -241,6 +243,8 @@ export default (() => {
 				min-height="initial"
 				order="-1"
 				width="90px"
+				srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=3200 3200w"
+				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 			<Box width="100%">
 				<Text
@@ -260,9 +264,12 @@ export default (() => {
 					position="absolute"
 					background="#ffffff"
 					color="#000000"
-					left="456px"
-					right="758.89px"
+					left="675px"
+					right="auto"
 					width="151.475px"
+					bottom="auto"
+					height="40px"
+					top="647px"
 				>
 					<Strong>
 						Saiba mais!
@@ -282,10 +289,14 @@ export default (() => {
 				3 dobras
 			</Text>
 			<Text as="p" font="--lead" margin="20px 0 20px 0" text-align="center">
-				Uma parceria por dois apaixonados pela arte de capturar momentos especiais. Decidimos unir nossas forças e talentos para criar uma experiência fotográfica única e acessível a todos.{"\n\n\n\n"}
+				Uma parceria por dois apaixonados pela arte de capturar{" "}
+				<br />
+				momentos especiais. Decidimos unir nossas forças e talentos para criar uma{" "}
+				<br />
+				experiência fotográfica única e acessível a todos.{"\n\n\n\n"}
 			</Text>
 			<Button font="--lead" margin="20px" background="#000000">
-				Button
+				Espia só
 			</Button>
 		</Section>
 		<Section background="--color-dark" padding="120px 0 120px 0" sm-padding="40px 0" display="none">
@@ -388,6 +399,8 @@ export default (() => {
 						object-fit="cover"
 						top="auto"
 						right={0}
+						srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_8575%20%281%29.jpg?v=2023-07-18T20%3A51%3A20.427Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_8575%20%281%29.jpg?v=2023-07-18T20%3A51%3A20.427Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_8575%20%281%29.jpg?v=2023-07-18T20%3A51%3A20.427Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_8575%20%281%29.jpg?v=2023-07-18T20%3A51%3A20.427Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_8575%20%281%29.jpg?v=2023-07-18T20%3A51%3A20.427Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_8575%20%281%29.jpg?v=2023-07-18T20%3A51%3A20.427Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_8575%20%281%29.jpg?v=2023-07-18T20%3A51%3A20.427Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
 			</Box>
@@ -425,6 +438,8 @@ export default (() => {
 						object-fit="cover"
 						position="absolute"
 						display="block"
+						srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_0237.jpg?v=2023-07-18T17%3A11%3A54.147Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_0237.jpg?v=2023-07-18T17%3A11%3A54.147Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_0237.jpg?v=2023-07-18T17%3A11%3A54.147Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_0237.jpg?v=2023-07-18T17%3A11%3A54.147Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_0237.jpg?v=2023-07-18T17%3A11%3A54.147Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_0237.jpg?v=2023-07-18T17%3A11%3A54.147Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/_MG_0237.jpg?v=2023-07-18T17%3A11%3A54.147Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
 			</Box>
@@ -566,6 +581,8 @@ QUE CAPTA SUA PERSONALIDADE
 						width="26%"
 						sm-width="100%"
 						sm-margin="0 0 10px 0"
+						srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164751__MG_6437.jpg?v=2023-08-08T15%3A35%3A17.383Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164751__MG_6437.jpg?v=2023-08-08T15%3A35%3A17.383Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164751__MG_6437.jpg?v=2023-08-08T15%3A35%3A17.383Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164751__MG_6437.jpg?v=2023-08-08T15%3A35%3A17.383Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164751__MG_6437.jpg?v=2023-08-08T15%3A35%3A17.383Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164751__MG_6437.jpg?v=2023-08-08T15%3A35%3A17.383Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164751__MG_6437.jpg?v=2023-08-08T15%3A35%3A17.383Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 					<Image
 						src="https://uploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164533__MG_6432.jpg?v=2023-08-08T15:35:49.824Z"
@@ -575,6 +592,8 @@ QUE CAPTA SUA PERSONALIDADE
 						width="37%"
 						sm-width="100%"
 						sm-margin="0 0 10px 0"
+						srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164533__MG_6432.jpg?v=2023-08-08T15%3A35%3A49.824Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164533__MG_6432.jpg?v=2023-08-08T15%3A35%3A49.824Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164533__MG_6432.jpg?v=2023-08-08T15%3A35%3A49.824Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164533__MG_6432.jpg?v=2023-08-08T15%3A35%3A49.824Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164533__MG_6432.jpg?v=2023-08-08T15%3A35%3A49.824Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164533__MG_6432.jpg?v=2023-08-08T15%3A35%3A49.824Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164533__MG_6432.jpg?v=2023-08-08T15%3A35%3A49.824Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 					<Image
 						src="https://uploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164213__MG_6428.jpg?v=2023-08-08T15:36:50.319Z"
@@ -584,6 +603,8 @@ QUE CAPTA SUA PERSONALIDADE
 						width="37%"
 						sm-width="100%"
 						sm-margin="0px 0px 0px 0"
+						srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164213__MG_6428.jpg?v=2023-08-08T15%3A36%3A50.319Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164213__MG_6428.jpg?v=2023-08-08T15%3A36%3A50.319Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164213__MG_6428.jpg?v=2023-08-08T15%3A36%3A50.319Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164213__MG_6428.jpg?v=2023-08-08T15%3A36%3A50.319Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164213__MG_6428.jpg?v=2023-08-08T15%3A36%3A50.319Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164213__MG_6428.jpg?v=2023-08-08T15%3A36%3A50.319Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/20230121164213__MG_6428.jpg?v=2023-08-08T15%3A36%3A50.319Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
 				<Box
@@ -617,11 +638,29 @@ QUE CAPTA SUA PERSONALIDADE
 							missão
 						</Strong>
 						{" "}é levar a fotografia até você de forma{" "}
-						<Strong>
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							simples
 						</Strong>
-						{" "}e{" "}
-						<Strong>
+						{" "}e{" "}
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							descomplicada
 						</Strong>
 						. Seja um casamento, uma festa de aniversário, um ensaio pessoal ou qualquer outro momento especial, estaremos lá para eternizar esses instantes preciosos.{"\n\n"}
@@ -663,6 +702,8 @@ QUE CAPTA SUA PERSONALIDADE
 						left={0}
 						right={0}
 						min-height="100%"
+						srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/7-20230225111705__MG_7624.jpg?v=2023-08-08T16%3A01%3A25.270Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/7-20230225111705__MG_7624.jpg?v=2023-08-08T16%3A01%3A25.270Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/7-20230225111705__MG_7624.jpg?v=2023-08-08T16%3A01%3A25.270Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/7-20230225111705__MG_7624.jpg?v=2023-08-08T16%3A01%3A25.270Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/7-20230225111705__MG_7624.jpg?v=2023-08-08T16%3A01%3A25.270Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/7-20230225111705__MG_7624.jpg?v=2023-08-08T16%3A01%3A25.270Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/7-20230225111705__MG_7624.jpg?v=2023-08-08T16%3A01%3A25.270Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 					/>
 				</Box>
 			</Box>
@@ -703,6 +744,8 @@ QUE CAPTA SUA PERSONALIDADE
 							width="100%"
 							min-height="100%"
 							src="https://uploads.quarkly.io/64b69612477c3a0019b54376/images/11-20230429110955__MG_1046.jpg?v=2023-08-08T15:39:06.185Z"
+							srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/11-20230429110955__MG_1046.jpg?v=2023-08-08T15%3A39%3A06.185Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/11-20230429110955__MG_1046.jpg?v=2023-08-08T15%3A39%3A06.185Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/11-20230429110955__MG_1046.jpg?v=2023-08-08T15%3A39%3A06.185Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/11-20230429110955__MG_1046.jpg?v=2023-08-08T15%3A39%3A06.185Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/11-20230429110955__MG_1046.jpg?v=2023-08-08T15%3A39%3A06.185Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/11-20230429110955__MG_1046.jpg?v=2023-08-08T15%3A39%3A06.185Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/11-20230429110955__MG_1046.jpg?v=2023-08-08T15%3A39%3A06.185Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Box>
 				</Box>
@@ -730,6 +773,8 @@ QUE CAPTA SUA PERSONALIDADE
 							display="block"
 							width="100%"
 							right={0}
+							srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/8-20230225111723__MG_7626.jpg?v=2023-08-08T16%3A01%3A30.810Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/8-20230225111723__MG_7626.jpg?v=2023-08-08T16%3A01%3A30.810Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/8-20230225111723__MG_7626.jpg?v=2023-08-08T16%3A01%3A30.810Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/8-20230225111723__MG_7626.jpg?v=2023-08-08T16%3A01%3A30.810Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/8-20230225111723__MG_7626.jpg?v=2023-08-08T16%3A01%3A30.810Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/8-20230225111723__MG_7626.jpg?v=2023-08-08T16%3A01%3A30.810Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/8-20230225111723__MG_7626.jpg?v=2023-08-08T16%3A01%3A30.810Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Box>
 				</Box>
@@ -757,6 +802,8 @@ QUE CAPTA SUA PERSONALIDADE
 							position="absolute"
 							width="100%"
 							left={0}
+							srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/36-_MG_9886.jpg?v=2023-08-08T16%3A01%3A37.178Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/36-_MG_9886.jpg?v=2023-08-08T16%3A01%3A37.178Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/36-_MG_9886.jpg?v=2023-08-08T16%3A01%3A37.178Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/36-_MG_9886.jpg?v=2023-08-08T16%3A01%3A37.178Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/36-_MG_9886.jpg?v=2023-08-08T16%3A01%3A37.178Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/36-_MG_9886.jpg?v=2023-08-08T16%3A01%3A37.178Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/36-_MG_9886.jpg?v=2023-08-08T16%3A01%3A37.178Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Box>
 				</Box>
@@ -784,6 +831,8 @@ QUE CAPTA SUA PERSONALIDADE
 							width="100%"
 							right={0}
 							bottom="0px"
+							srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/40-_MG_9936.jpg?v=2023-08-08T16%3A01%3A52.674Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/40-_MG_9936.jpg?v=2023-08-08T16%3A01%3A52.674Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/40-_MG_9936.jpg?v=2023-08-08T16%3A01%3A52.674Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/40-_MG_9936.jpg?v=2023-08-08T16%3A01%3A52.674Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/40-_MG_9936.jpg?v=2023-08-08T16%3A01%3A52.674Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/40-_MG_9936.jpg?v=2023-08-08T16%3A01%3A52.674Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/40-_MG_9936.jpg?v=2023-08-08T16%3A01%3A52.674Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 						/>
 					</Box>
 				</Box>
@@ -810,10 +859,41 @@ QUE CAPTA SUA PERSONALIDADE
 					lg-width="100%"
 					md-text-align="left"
 				>
-					Fotos para a sua empresa, vídeos institucionais ou algum momento especial da sua marca, planejando roteiro e detalhes que contarão{" "}
-					<Strong>
-						a sua história.{"\n\n"}
+					Transformamos a visão de sua empresa em{" "}
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						imagens cativantes
 					</Strong>
+					. Planejamos cuidadosamente cada detalhe para garantir que{" "}
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						sua história seja
+					</Strong>
+					{" "}contada de forma{" "}
+					<Strong>
+						autêntica
+					</Strong>
+					{" "}e{" "}
+					<Strong>
+						envolvente
+					</Strong>
+					.{"\n\n"}
 				</Text>
 			</Box>
 		</Section>
@@ -907,7 +987,14 @@ QUE CAPTA SUA PERSONALIDADE
 					justify-content="center"
 					align-content="space-around"
 				>
-					<Image src="https://uploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16:11:42.573Z" display="block" align-self="flex-start" width="70px" />
+					<Image
+						src="https://uploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16:11:42.573Z"
+						display="block"
+						align-self="flex-start"
+						width="70px"
+						srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
+					/>
 				</LinkBox>
 			</Box>
 			<Box
