@@ -17,10 +17,10 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-3" background="#002A3A">
+		<Section sm-padding="8px 0 8px 0" quarkly-title="Header-3" background="#fffff">
 			<Override slot="SectionContent" flex-direction="row" justify-content="space-between" />
 			<Image
-				src="https://uploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16:11:42.573Z"
+				src="https://uploads.quarkly.io/64b69612477c3a0019b54376/images/Tr%C3%AAs%20Dobras%20%283%29%201.png?v=2023-09-17T17:54:57.385Z"
 				display="inline-block"
 				width="50px"
 				height="50px"
@@ -28,7 +28,7 @@ export default (() => {
 				min-width="fit-content"
 				min-height="initial"
 				order="-1"
-				srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Group%204.png?v=2023-08-08T16%3A11%3A42.573Z&quality=85&w=3200 3200w"
+				srcSet="https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Tr%C3%AAs%20Dobras%20%283%29%201.png?v=2023-09-17T17%3A54%3A57.385Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Tr%C3%AAs%20Dobras%20%283%29%201.png?v=2023-09-17T17%3A54%3A57.385Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Tr%C3%AAs%20Dobras%20%283%29%201.png?v=2023-09-17T17%3A54%3A57.385Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Tr%C3%AAs%20Dobras%20%283%29%201.png?v=2023-09-17T17%3A54%3A57.385Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Tr%C3%AAs%20Dobras%20%283%29%201.png?v=2023-09-17T17%3A54%3A57.385Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Tr%C3%AAs%20Dobras%20%283%29%201.png?v=2023-09-17T17%3A54%3A57.385Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/64b69612477c3a0019b54376/images/Tr%C3%AAs%20Dobras%20%283%29%201.png?v=2023-09-17T17%3A54%3A57.385Z&quality=85&w=3200 3200w"
 				sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,100vw"
 			/>
 			<Box
@@ -160,7 +160,7 @@ export default (() => {
 						<Override slot="link-active" cursor="default" color="--primary" />
 						<Override slot="link-about" />
 						<Override slot="link-cases" color="--darkL2">
-							Cases
+							Fale com a gente
 						</Override>
 					</Components.QuarklycommunityKitMenu>
 					<Box
